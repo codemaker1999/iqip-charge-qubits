@@ -2,6 +2,7 @@
 \usepackage{epstopdf}
 \usepackage{graphicx}
 %\usepackage{amsmath}
+\setbeamerfont{caption}{series=\normalfont,size=\fontsize{4}{24}}
 
 \title{Two-Qubit Dynamics with Josephson Qubits}
 \author{John Meade \and Dylan Funk}
@@ -72,12 +73,6 @@
 \begin{frame}
     \frametitle{Coupling of Two Qubits}
     \framesubtitle{Review}
-    \begin{figure}[!htb]
-        \centering
-        \includegraphics[width=0.8\textwidth]{img/basic-structure.eps}
-        %\caption{Digraph.}
-        %\label{fig:digraph}
-    \end{figure}
 \end{frame}
 
 %%%
@@ -161,6 +156,18 @@
     \end{figure}
 \end{frame}
 
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
+    \framesubtitle{Frequency Responces}
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[height=0.6\textheight]{img/probe-current-osc.jpg}
+        \caption{http://www.nature.com/nature/journal/v421/n6925/full/nature01365.html}
+    \end{figure}
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Fabrication Techniques
 
@@ -206,7 +213,7 @@
     \begin{figure}[ht!]
         \centering
         \includegraphics[height=0.6\textheight]{img/etching.jpg}
-        \caption{http://www.mrsec.harvard.edu/education/ap298r2004/Erli\%20chen\%20Fabrication\%20III\%20-\%20Etching.pdf}
+        \caption[10pt]{http://www.mrsec.harvard.edu/education/ap298r2004/Erli\%20chen\%20Fabrication\%20III\%20-\%20Etching.pdf}
     \end{figure}
 \end{frame}
 

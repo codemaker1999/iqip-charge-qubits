@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  31 MAR 2015 15:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  31 MAR 2015 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -681,20 +681,20 @@ e
 (./slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -745,7 +745,7 @@ LaTeX Font Info:    ... okay on input line 10.
 \everyMPtoPDFconversion=\toks41
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -755,56 +755,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 
 (./slides.out) (./slides.out)
 \@outlinefile=\write5
 \openout5 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 10.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 11.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 10.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 10.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 10.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 10.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 10.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 10.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 10.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 11.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -830,11 +830,11 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 10.
+LaTeX Info: Redefining \includegraphics on input line 11.
  (./slides.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 14.
+(Font)              size <5> substituted on input line 15.
 
 [1
 
@@ -850,12 +850,14 @@ File: img/single-qubit-band-diagram.jpg Graphic file (type jpg)
 
 <use img/single-qubit-band-diagram.jpg>
 Package pdftex.def Info: img/single-qubit-band-diagram.jpg used on input line 5
-2.
+3.
 (pdftex.def)             Requested size: 168.17148pt x 215.31812pt.
  [5
 
  <./img/single-qubit-band-diagram.jpg>] [6
 
+] [7
+
 ]
 Package epstopdf Info: Source file: <img/basic-structure.eps>
 (epstopdf)                    date: 2015-03-30 20:54:02
@@ -865,42 +867,24 @@ Package epstopdf Info: Source file: <img/basic-structure.eps>
 (epstopdf)                    size: 8278 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/basic-structure-eps-co
 nverted-to.pdf img/basic-structure.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/basic-structure-eps-converted-to.pdf, id=171, 520.94624pt x 305.14pt>
+<img/basic-structure-eps-converted-to.pdf, id=198, 520.94624pt x 305.14pt>
 File: img/basic-structure-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/basic-structure-eps-converted-to.pdf>
 Package pdftex.def Info: img/basic-structure-eps-converted-to.pdf used on input
- line 81.
-(pdftex.def)             Requested size: 245.83282pt x 143.99316pt.
- [7
-
- <./img/basic-structure-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <img/basic-structure.eps>
-(epstopdf)                    date: 2015-03-30 20:54:02
-(epstopdf)                    size: 15232 bytes
-(epstopdf)             Output file: <img/basic-structure-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 20:55:57
-(epstopdf)                    size: 8278 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/basic-structure-eps-co
-nverted-to.pdf img/basic-structure.eps>
-(epstopdf)             \includegraphics on input line 94.
-Package epstopdf Info: Output file is already uptodate.
-File: img/basic-structure-eps-converted-to.pdf Graphic file (type pdf)
- <use img/basic-structure-eps-converted-to.pdf>
-Package pdftex.def Info: img/basic-structure-eps-converted-to.pdf used on input
- line 94.
+ line 89.
 (pdftex.def)             Requested size: 245.83282pt x 143.99316pt.
  [8
 
-]
-<img/circuit-sem-and-diagram.jpg, id=229, 602.25pt x 862.22125pt>
+ <./img/basic-structure-eps-converted-to.pdf>]
+<img/circuit-sem-and-diagram.jpg, id=230, 602.25pt x 862.22125pt>
 File: img/circuit-sem-and-diagram.jpg Graphic file (type jpg)
 
 <use img/circuit-sem-and-diagram.jpg>
-Package pdftex.def Info: img/circuit-sem-and-diagram.jpg used on input line 107
+Package pdftex.def Info: img/circuit-sem-and-diagram.jpg used on input line 101
 .
 (pdftex.def)             Requested size: 131.59482pt x 188.40181pt.
  [9
@@ -912,31 +896,25 @@ Package pdftex.def Info: img/circuit-sem-and-diagram.jpg used on input line 107
 File: img/single-qubit-band-diagram.jpg Graphic file (type jpg)
  <use img/single-qubit-band-diagram.jpg>
 Package pdftex.def Info: img/single-qubit-band-diagram.jpg used on input line 1
-26.
+20.
 (pdftex.def)             Requested size: 126.12312pt x 161.48961pt.
  [11
 
 ]
-<img/charging-diagram.jpg, id=306, 602.25pt x 739.76375pt>
+<img/charging-diagram.jpg, id=307, 602.25pt x 739.76375pt>
 File: img/charging-diagram.jpg Graphic file (type jpg)
 
 <use img/charging-diagram.jpg>
-Package pdftex.def Info: img/charging-diagram.jpg used on input line 138.
+Package pdftex.def Info: img/charging-diagram.jpg used on input line 132.
 (pdftex.def)             Requested size: 131.46617pt x 161.48961pt.
-
-Overfull \hbox (9.59975pt too wide) in paragraph at lines 138--138
-\OT1/cmss/m/n/10 http://www.nature.com/nature/journal/v421/n6925/full/nature013
-65.html  
- []
-
-[12
+ [12
 
  <./img/charging-diagram.jpg>]
-<img/charging-energy-diagram.jpg, id=332, 648.4225pt x 784.9325pt>
+<img/charging-energy-diagram.jpg, id=333, 648.4225pt x 784.9325pt>
 File: img/charging-energy-diagram.jpg Graphic file (type jpg)
 
 <use img/charging-energy-diagram.jpg>
-Package pdftex.def Info: img/charging-energy-diagram.jpg used on input line 150
+Package pdftex.def Info: img/charging-energy-diagram.jpg used on input line 144
 .
 (pdftex.def)             Requested size: 133.40239pt x 161.48961pt.
  [13
@@ -951,19 +929,28 @@ df>
 (epstopdf)                    size: 76083 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/two-qubit-sem-probe-ep
 s-converted-to.pdf img/two-qubit-sem-probe.eps>
-(epstopdf)             \includegraphics on input line 163.
+(epstopdf)             \includegraphics on input line 157.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/two-qubit-sem-probe-eps-converted-to.pdf, id=360, 495.8525pt x 370.38374pt
+<img/two-qubit-sem-probe-eps-converted-to.pdf, id=361, 495.8525pt x 370.38374pt
 >
 File: img/two-qubit-sem-probe-eps-converted-to.pdf Graphic file (type pdf)
  <use img/two-qubit-sem-probe-eps-converted-to.pdf>
 Package pdftex.def Info: img/two-qubit-sem-probe-eps-converted-to.pdf used on i
-nput line 163.
+nput line 157.
 (pdftex.def)             Requested size: 245.83282pt x 183.62592pt.
  [14
 
- <./img/two-qubit-sem-probe-eps-converted-to.pdf>] [15
+ <./img/two-qubit-sem-probe-eps-converted-to.pdf>]
+<img/probe-current-osc.jpg, id=390, 602.25pt x 768.8725pt>
+File: img/probe-current-osc.jpg Graphic file (type jpg)
+
+<use img/probe-current-osc.jpg>
+Package pdftex.def Info: img/probe-current-osc.jpg used on input line 169.
+(pdftex.def)             Requested size: 126.4946pt x 161.48961pt.
+ [15
+
+ <./img/probe-current-osc.jpg>] [16
 
 ]
 Package epstopdf Info: Source file: <img/evaporation.eps>
@@ -974,17 +961,17 @@ Package epstopdf Info: Source file: <img/evaporation.eps>
 (epstopdf)                    size: 8995 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/evaporation-eps-conver
 ted-to.pdf img/evaporation.eps>
-(epstopdf)             \includegraphics on input line 189.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/evaporation-eps-converted-to.pdf, id=414, 601.24625pt x 444.66125pt>
+<img/evaporation-eps-converted-to.pdf, id=441, 601.24625pt x 444.66125pt>
 File: img/evaporation-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/evaporation-eps-converted-to.pdf>
 Package pdftex.def Info: img/evaporation-eps-converted-to.pdf used on input lin
-e 189.
+e 195.
 (pdftex.def)             Requested size: 245.83282pt x 181.8102pt.
- [16
+ [17
 
  <./img/evaporation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/ebeam.eps>
@@ -995,30 +982,25 @@ Package epstopdf Info: Source file: <img/ebeam.eps>
 (epstopdf)                    size: 9116 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/ebeam-eps-converted-to
 .pdf img/ebeam.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
- <img/ebeam-eps-converted-to.pdf, id=446, 563.10374pt x 424.58624pt>
+ <img/ebeam-eps-converted-to.pdf, id=474, 563.10374pt x 424.58624pt>
 File: img/ebeam-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/ebeam-eps-converted-to.pdf>
-Package pdftex.def Info: img/ebeam-eps-converted-to.pdf used on input line 200.
+Package pdftex.def Info: img/ebeam-eps-converted-to.pdf used on input line 206.
 
 (pdftex.def)             Requested size: 285.56377pt x 215.31812pt.
- [17
+ [18
 
  <./img/ebeam-eps-converted-to.pdf>]
-<img/etching.jpg, id=479, 751.80875pt x 857.2025pt>
+<img/etching.jpg, id=506, 751.80875pt x 857.2025pt>
 File: img/etching.jpg Graphic file (type jpg)
  <use img/etching.jpg>
-Package pdftex.def Info: img/etching.jpg used on input line 212.
+Package pdftex.def Info: img/etching.jpg used on input line 218.
 (pdftex.def)             Requested size: 141.62914pt x 161.48961pt.
 
-Overfull \hbox (90.43329pt too wide) in paragraph at lines 212--212
-\OT1/cmss/m/n/10 http://www.mrsec.harvard.edu/education/ap298r2004/Erli%20chen%
-20Fabrication%20III%20- 
- []
-
-[18
+[19
 
  <./img/etching.jpg>]
 Package epstopdf Info: Source file: <img/lift-off.eps>
@@ -1029,44 +1011,38 @@ Package epstopdf Info: Source file: <img/lift-off.eps>
 (epstopdf)                    size: 14557 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/lift-off-eps-converted
 -to.pdf img/lift-off.eps>
-(epstopdf)             \includegraphics on input line 225.
+(epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/lift-off-eps-converted-to.pdf, id=505, 502.87875pt x 673.51625pt>
+<img/lift-off-eps-converted-to.pdf, id=533, 502.87875pt x 673.51625pt>
 File: img/lift-off-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/lift-off-eps-converted-to.pdf>
 Package pdftex.def Info: img/lift-off-eps-converted-to.pdf used on input line 2
-25.
+31.
 (pdftex.def)             Requested size: 120.57826pt x 161.48961pt.
- [19
+ [20
 
- <./img/lift-off-eps-converted-to.pdf>] <img/two-qubit-sem.jpg, id=537, 596.227
+ <./img/lift-off-eps-converted-to.pdf>] <img/two-qubit-sem.jpg, id=565, 596.227
 5pt x 460.72125pt>
 File: img/two-qubit-sem.jpg Graphic file (type jpg)
 
 <use img/two-qubit-sem.jpg>
-Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 237.
+Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 243.
 (pdftex.def)             Requested size: 215.10196pt x 166.21101pt.
-
-Overfull \hbox (9.59975pt too wide) in paragraph at lines 237--237
-\OT1/cmss/m/n/10 http://www.nature.com/nature/journal/v421/n6925/full/nature013
-65.html  
- []
-
-[20
+ [21
 
  <./img/two-qubit-sem.jpg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 259.
+LaTeX Font Info:    Try loading font information for U+msa on input line 265.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 259.
+LaTeX Font Info:    Try loading font information for U+msb on input line 265.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [21
+) [22
 
 ]
 \tf@nav=\write6
@@ -1078,11 +1054,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1090,24 +1066,25 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 15649 strings out of 495028
- 289549 string characters out of 6181497
- 359882 words of memory out of 5000000
- 18436 multiletter control sequences out of 15000+600000
- 12172 words of font info for 45 fonts, out of 8000000 for 9000
+ 15659 strings out of 495028
+ 289725 string characters out of 6181497
+ 359900 words of memory out of 5000000
+ 18443 multiletter control sequences out of 15000+600000
+ 11867 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,14n,53p,455b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on slides.pdf (21 pages, 623164 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on slides.pdf (22 pages, 721413 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 43 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
