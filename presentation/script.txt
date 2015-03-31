@@ -1,0 +1,63 @@
+Theory
+-------
+
+* We know the interaction Ham for individual qubits
+
+* If we design the circuit in a specific way, we can be confident that a 4-level system approx is appropriate at point X
+
+* Hamiltonian can then be derived for point X in the 4 level basis
+
+Experiment
+-----------
+
+* measurements
+    * ...
+
+* apply gate voltage to change n_g. ex: setting n_g=0.5 is an equal superposition of charge states on the island
+
+* pulse non-adiabatically to point of interest on charging diagram. Since pulse gate has ~equal coupling to each qubit, application of this pulse shifts the state of the system along 45 deg line
+
+* apply rectangular pulses
+    * control and target qubits 
+    * dual frequency beat pattern implies qubits interfereing
+
+* readout
+    * apply voltage to probes
+    * voltage reduces energy barrier between CPB and probe
+    * extra Cooper pair transfers as two quasiparticles => state 1
+    * no transmission => state 0
+
+* Coherence (trade-offs, considerations)
+    * Measurement probe is more accurate when closer, but causes more decoherence when closer
+
+Fabrication Techniques
+-----------------------
+
+* evaporation
+    * used to deposite Al onto substrate (shadow evaporation)
+    * between evaporation steps, put oxygen in evaporation chamber to oxidize Al. This creates a thin layer of insulation which acts as a convenient tunnel junction
+
+* e-beam lith
+    * layer of resist is placed on a substrate
+    * e-beam focussed using 25nm balls of gold
+    * masks are used to help create certain features
+    * e-beam changes solubility of the resist
+    * developing stage - immerse in solvent
+    * EBL used over photolith because of accuracy (~10nm instead of ~125nm)
+
+* etching
+    * used to remove layers from the surface of a substrate
+    * wet etching is a chemical bath
+    * dry etching is blasting the wafer with ions (plasma of gases)
+    * dry is used more often for nanofab because you can get ~100nm features as opposed to ~1um
+    * also more costly, harder to do, poor selectivity
+
+* liftoff
+    1. prepare substrate
+    2. deposite stencil layer
+    3. patterning (ex: etching)
+    4. deposite target material
+    5. "lift-off" of stencil
+    * used when poor selectivity of etching is a problem, or when deeper layers would be damaged by etching
+    * common problem: lift-off malfunction
+

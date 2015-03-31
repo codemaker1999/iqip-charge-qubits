@@ -1,0 +1,4 @@
+pdflatex transmon.tex
+bibtex transmon.bib
+pdflatex transmon.tex
+pdflatex transmon.tex
