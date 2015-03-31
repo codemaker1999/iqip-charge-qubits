@@ -1,7 +1,7 @@
 \documentclass{beamer}
 \usepackage{epstopdf}
 \usepackage{graphicx}
-%\usepackage{amsmath}
+\usepackage{amsmath}
 \setbeamerfont{caption}{series=\normalfont,size=\fontsize{4}{24}}
 
 \title{Two-Qubit Dynamics with Josephson Qubits}
@@ -104,6 +104,16 @@
 
 \begin{frame}
     \frametitle{Coupling of Two Qubits}
+    \framesubtitle{Theory}
+    \begin{block}{Hamiltonian}
+    \end{block}
+\end{frame}
+
+
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
     \framesubtitle{Parameter Measurements}
 \end{frame}
 
@@ -114,8 +124,20 @@
     \framesubtitle{Charging Diagram of Single-Qubit Case}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[height=0.6\textheight]{img/single-qubit-band-diagram.jpg}
+        \includegraphics[height=0.6\textheight]{img/single-qubit-band-diagram-only.jpg}
         \caption{http://www.nature.com/nature/journal/v398/n6730/abs/398786a0.html}
+    \end{figure}
+\end{frame}
+
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
+    \framesubtitle{Charging Diagram Level Curves}
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[height=0.6\textheight]{img/charging-level-curves.jpg}
+        \caption{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.193.5098\&rep=rep1\&type=pdf}
     \end{figure}
 \end{frame}
 
@@ -154,6 +176,38 @@
         %\caption{Digraph.}
         %\label{fig:digraph}
     \end{figure}
+\end{frame}
+
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
+    \framesubtitle{Theory}
+    \begin{block}{Hamiltonian}
+        \fontsize{8}{7.2}\selectfont
+        $$
+        H=
+        \begingroup
+            \renewcommand*{\arraystretch}{1.5}
+            \begin{bmatrix}
+                E_{00} & -\frac{1}{2}E_{J1} & -\frac{1}{2}E_{J2} & 0 \\
+                -\frac{1}{2}E_{J1} & E_{10} & 0 & -\frac{1}{2}E_{J2} \\
+                -\frac{1}{2}E_{J2} & 0 & E_{01} & -\frac{1}{2}E_{J1} \\
+                0 & -\frac{1}{2}E_{J2} & -\frac{1}{2}E_{J1} & E_{11}
+            \end{bmatrix}
+        \endgroup
+        $$
+        
+        Where...
+        \begin{itemize}
+            \item $E_{n1n2}=E_{c1}(n_{g1}-n_1)^2 + E_{c2}(n_{g2}-n_2)^2 + E_{m}(n_{g1}-n_1)(n_{g2}-n_2)$
+            \item $E_{Ji}$ is the Josephson energy of the $i^{th}$ box
+            \item $E_{c1,c2}=4e^2C_{\Sigma 2,\Sigma 1} / 2(C_{\Sigma 1} C_{\Sigma 2} - C_m^2)$ are the effective Cooper pair charging energies
+            \item $C_{\Sigma i}$ is the sum of all capacitances connected to the $i^{th}$ island
+            \item $n_{g1,g2}=(C_{g1,g2}V_{g1,g2}+C_pV_p)/2e$ is the charge, indiced by the gate and pulse voltages, on the qubits
+            \item $E_m=4e^2C_m/(C_{\Sigma 1}C_{\Sigma 2}-C_m^2)$
+        \end{itemize}
+    \end{block}
 \end{frame}
 
 %%%
