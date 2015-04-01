@@ -135,18 +135,23 @@
 
 \begin{frame}
     \frametitle{Coupling of Two Qubits}
-    \framesubtitle{Parameter Measurements}
+    \framesubtitle{Charging Diagram of Two-Qubit Case}
+    \begin{figure}[ht!]
+        \centering
+        \includegraphics[height=0.6\textheight]{img/charging-diagram.jpg}
+        \caption{http://www.nature.com/nature/journal/v421/n6925/full/nature01365.html}
+    \end{figure}
 \end{frame}
 
 %%%
 
 \begin{frame}
     \frametitle{Coupling of Two Qubits}
-    \framesubtitle{Charging Diagram of Two-Qubit Case}
+    \framesubtitle{Points L and R}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[height=0.6\textheight]{img/charging-diagram.jpg}
-        \caption{http://www.nature.com/nature/journal/v421/n6925/full/nature01365.html}
+        \includegraphics[height=0.6\textheight]{img/points-l-and-r.jpg}
+        \caption{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.193.5098\&rep=rep1\&type=pdf}
     \end{figure}
 \end{frame}
 
@@ -171,30 +176,6 @@
         \centering
         \includegraphics[height=0.6\textheight]{img/charging-energy-diagram.jpg}
         \caption{http://qudev.ethz.ch/content/courses/QSIT09/pdfs/Yamamoto2003.pdf}
-    \end{figure}
-\end{frame}
-
-%%%
-
-\begin{frame}
-    \frametitle{Coupling of Two Qubits}
-    \framesubtitle{Points L and R}
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[height=0.6\textheight]{img/points-l-and-r.jpg}
-        \caption{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.193.5098\&rep=rep1\&type=pdf}
-    \end{figure}
-\end{frame}
-
-%%%
-
-\begin{frame}
-    \frametitle{Coupling of Two Qubits}
-    \framesubtitle{State Readout}
-    \begin{figure}[!htb]
-        \centering
-        \includegraphics[width=0.8\textwidth]{img/two-qubit-sem-probe.eps}
-        \caption{http://www.nature.com/nature/journal/v421/n6925/full/nature01365.html}
     \end{figure}
 \end{frame}
 
@@ -228,6 +209,47 @@
             \item $E_m=4e^2C_m/(C_{\Sigma 1}C_{\Sigma 2}-C_m^2)$
         \end{itemize}
     \end{block}
+\end{frame}
+
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
+    \framesubtitle{Theory}
+    \begin{block}{Probabilities}
+        \fontsize{8}{18}\selectfont
+        Initially, $|\psi\rangle=|00\rangle$
+
+        Using this Hamiltonian and an ideal rectangular pulse of length $\Delta t$,
+
+        $p_{1,2}(1)=\frac{1}{4} \Bigg ( 2-(1-\chi_{1,2})cos[(\Omega+\epsilon)\Delta t]-(1+\chi_{1,2})cos[(\Omega-\epsilon)\Delta t] \Bigg )$
+
+        Where...
+        \begin{itemize}
+            \item $\chi_{1,2}=\frac{E^2_{J2,J1}-E^2_{J1,J2})+E^2_m/4}{4\hbar^2\Omega\epsilon}$
+            \item $\Omega = \sqrt{(E_{J1}+E_{J2})^2+(E_m/2)^2}/2\hbar$
+            \item $\epsilon = \sqrt{(E_{J1}-E_{J2})^2+(E_m/2)^2}/2\hbar$
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
+    \framesubtitle{State Readout}
+    \begin{figure}[!htb]
+        \centering
+        \includegraphics[width=0.8\textwidth]{img/two-qubit-sem-probe.eps}
+        \caption{http://www.nature.com/nature/journal/v421/n6925/full/nature01365.html}
+    \end{figure}
+\end{frame}
+
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
+    \framesubtitle{Parameter Measurements}
 \end{frame}
 
 %%%

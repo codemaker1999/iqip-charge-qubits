@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  1 APR 2015 15:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  1 APR 2015 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -942,6 +942,20 @@ Package pdftex.def Info: img/points-l-and-r.jpg used on input line 187.
  [14
 
  <./img/points-l-and-r.jpg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 219.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 219.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [15
+
+] [16
+
+]
 Package epstopdf Info: Source file: <img/two-qubit-sem-probe.eps>
 (epstopdf)                    date: 2015-03-30 21:38:01
 (epstopdf)                    size: 260085 bytes
@@ -951,48 +965,36 @@ df>
 (epstopdf)                    size: 76083 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/two-qubit-sem-probe-ep
 s-converted-to.pdf img/two-qubit-sem-probe.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/two-qubit-sem-probe-eps-converted-to.pdf, id=390, 495.8525pt x 370.38374pt
+<img/two-qubit-sem-probe-eps-converted-to.pdf, id=450, 495.8525pt x 370.38374pt
 >
 File: img/two-qubit-sem-probe-eps-converted-to.pdf Graphic file (type pdf)
  <use img/two-qubit-sem-probe-eps-converted-to.pdf>
 Package pdftex.def Info: img/two-qubit-sem-probe-eps-converted-to.pdf used on i
-nput line 199.
+nput line 253.
 (pdftex.def)             Requested size: 245.83282pt x 183.62592pt.
- [15
+ [17
 
  <./img/two-qubit-sem-probe-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 231.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 231.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [16
-
-]
-<img/probe-current-osc.jpg, id=450, 602.25pt x 768.8725pt>
+<img/probe-current-osc.jpg, id=480, 602.25pt x 768.8725pt>
 File: img/probe-current-osc.jpg Graphic file (type jpg)
 
 <use img/probe-current-osc.jpg>
-Package pdftex.def Info: img/probe-current-osc.jpg used on input line 243.
+Package pdftex.def Info: img/probe-current-osc.jpg used on input line 265.
 (pdftex.def)             Requested size: 126.4946pt x 161.48961pt.
- [17
+ [18
 
  <./img/probe-current-osc.jpg>]
 File: img/probe-current-osc.jpg Graphic file (type jpg)
 
 <use img/probe-current-osc.jpg>
-Package pdftex.def Info: img/probe-current-osc.jpg used on input line 255.
+Package pdftex.def Info: img/probe-current-osc.jpg used on input line 277.
 (pdftex.def)             Requested size: 126.4946pt x 161.48961pt.
- [18
+ [19
 
-] [19
+] [20
 
 ]
 Package epstopdf Info: Source file: <img/evaporation.eps>
@@ -1003,17 +1005,17 @@ Package epstopdf Info: Source file: <img/evaporation.eps>
 (epstopdf)                    size: 8995 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/evaporation-eps-conver
 ted-to.pdf img/evaporation.eps>
-(epstopdf)             \includegraphics on input line 281.
+(epstopdf)             \includegraphics on input line 303.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/evaporation-eps-converted-to.pdf, id=528, 601.24625pt x 444.66125pt>
+<img/evaporation-eps-converted-to.pdf, id=557, 601.24625pt x 444.66125pt>
 File: img/evaporation-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/evaporation-eps-converted-to.pdf>
 Package pdftex.def Info: img/evaporation-eps-converted-to.pdf used on input lin
-e 281.
+e 303.
 (pdftex.def)             Requested size: 245.83282pt x 181.8102pt.
- [20
+ [21
 
  <./img/evaporation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <img/ebeam.eps>
@@ -1024,25 +1026,25 @@ Package epstopdf Info: Source file: <img/ebeam.eps>
 (epstopdf)                    size: 9116 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/ebeam-eps-converted-to
 .pdf img/ebeam.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
- <img/ebeam-eps-converted-to.pdf, id=560, 563.10374pt x 424.58624pt>
+ <img/ebeam-eps-converted-to.pdf, id=590, 563.10374pt x 424.58624pt>
 File: img/ebeam-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/ebeam-eps-converted-to.pdf>
-Package pdftex.def Info: img/ebeam-eps-converted-to.pdf used on input line 292.
+Package pdftex.def Info: img/ebeam-eps-converted-to.pdf used on input line 314.
 
 (pdftex.def)             Requested size: 285.56377pt x 215.31812pt.
- [21
+ [22
 
  <./img/ebeam-eps-converted-to.pdf>]
-<img/etching.jpg, id=593, 751.80875pt x 857.2025pt>
+<img/etching.jpg, id=622, 751.80875pt x 857.2025pt>
 File: img/etching.jpg Graphic file (type jpg)
  <use img/etching.jpg>
-Package pdftex.def Info: img/etching.jpg used on input line 304.
+Package pdftex.def Info: img/etching.jpg used on input line 326.
 (pdftex.def)             Requested size: 141.62914pt x 161.48961pt.
 
-[22
+[23
 
  <./img/etching.jpg>]
 Package epstopdf Info: Source file: <img/lift-off.eps>
@@ -1053,28 +1055,28 @@ Package epstopdf Info: Source file: <img/lift-off.eps>
 (epstopdf)                    size: 14557 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/lift-off-eps-converted
 -to.pdf img/lift-off.eps>
-(epstopdf)             \includegraphics on input line 317.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/lift-off-eps-converted-to.pdf, id=619, 502.87875pt x 673.51625pt>
+<img/lift-off-eps-converted-to.pdf, id=648, 502.87875pt x 673.51625pt>
 File: img/lift-off-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/lift-off-eps-converted-to.pdf>
 Package pdftex.def Info: img/lift-off-eps-converted-to.pdf used on input line 3
-17.
+39.
 (pdftex.def)             Requested size: 120.57826pt x 161.48961pt.
- [23
+ [24
 
- <./img/lift-off-eps-converted-to.pdf>] <img/two-qubit-sem.jpg, id=651, 596.227
+ <./img/lift-off-eps-converted-to.pdf>] <img/two-qubit-sem.jpg, id=680, 596.227
 5pt x 460.72125pt>
 File: img/two-qubit-sem.jpg Graphic file (type jpg)
 
 <use img/two-qubit-sem.jpg>
-Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 329.
+Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 351.
 (pdftex.def)             Requested size: 215.10196pt x 166.21101pt.
- [24
+ [25
 
- <./img/two-qubit-sem.jpg>] [25
+ <./img/two-qubit-sem.jpg>] [26
 
 ]
 \tf@nav=\write6
@@ -1086,11 +1088,11 @@ Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 329.
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1098,30 +1100,34 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 363.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
  ) 
 Here is how much of TeX's memory you used:
- 15705 strings out of 495028
- 290745 string characters out of 6181497
+ 15709 strings out of 495028
+ 290780 string characters out of 6181497
  365900 words of memory out of 5000000
- 18479 multiletter control sequences out of 15000+600000
+ 18481 multiletter control sequences out of 15000+600000
  11867 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,14n,53p,455b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msam10.pfb>
-Output written on slides.pdf (25 pages, 1058446 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm7.pfb>
+Output written on slides.pdf (26 pages, 1082885 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 673 compressed objects within 7 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 790 PDF objects out of 1000 (max. 8388607)
+ 709 compressed objects within 8 object streams
+ 53 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
