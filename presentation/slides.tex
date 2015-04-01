@@ -206,7 +206,7 @@
             \item $E_{c1,c2}=4e^2C_{\Sigma 2,\Sigma 1} / 2(C_{\Sigma 1} C_{\Sigma 2} - C_m^2)$ are the effective Cooper pair charging energies
             \item $C_{\Sigma i}$ is the sum of all capacitances connected to the $i^{th}$ island
             \item $n_{g1,g2}=(C_{g1,g2}V_{g1,g2}+C_pV_p)/2e$ is the charge, indiced by the gate and pulse voltages, on the qubits
-            \item $E_m=4e^2C_m/(C_{\Sigma 1}C_{\Sigma 2}-C_m^2)$
+            \item $E_m=4e^2C_m/(C_{\Sigma 1}C_{\Sigma 2}-C_m^2)$ is the coupling energy of the qubits
         \end{itemize}
     \end{block}
 \end{frame}
@@ -249,17 +249,38 @@
 
 \begin{frame}
     \frametitle{Coupling of Two Qubits}
-    \framesubtitle{Parameter Measurements}
+    \framesubtitle{Parameter Measurements / Frequency Responses}
+    \begin{columns}
+        \column{.3\textwidth}
+            \fontsize{6}{10}\selectfont
+            \begin{itemize}
+                \item Tune system by bringing to point L or R, exciting oscillations in one qubit
+                \item Get cosines with exponential decay
+                \item Fourier transform gives frequencies, which define $E_{J1}$ or $E_{J2}$
+                \item Drive system to point X and perform same Fourier measurement
+                \item This time, get 2 frequencies, $\Omega \pm \epsilon$
+            \end{itemize}
+        \column{.7\textwidth}
+            \begin{figure}[ht!]
+                \centering
+                \includegraphics[height=0.6\textheight]{img/probe-current-osc.jpg}
+                \caption{http://www.nature.com/nature/journal/v421/n6925/full/nature01365.html}
+            \end{figure}
+    \end{columns}
 \end{frame}
 
 %%%
 
 \begin{frame}
     \frametitle{Coupling of Two Qubits}
-    \framesubtitle{Frequency Responces}
+    \framesubtitle{EJ1 dependence of spectrum components}
+    \begin{block}{}
+        \centering
+        Note: Frequency repulsion at $E_{J1} \approx E_{J2}$
+    \end{block}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[height=0.6\textheight]{img/probe-current-osc.jpg}
+        \includegraphics[height=0.6\textheight]{img/freq-vs-ej1.jpg}
         \caption{http://www.nature.com/nature/journal/v421/n6925/full/nature01365.html}
     \end{figure}
 \end{frame}

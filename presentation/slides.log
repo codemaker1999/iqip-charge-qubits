@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  1 APR 2015 16:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  1 APR 2015 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,57 +903,55 @@ Package pdftex.def Info: img/circuit-sem-and-diagram.jpg used on input line 122
  [9
 
  <./img/circuit-sem-and-diagram.jpg>]
-[10
-
-] <img/charging-diagram.jpg, id=284, 602.25pt x 739.76375pt>
+<img/charging-diagram.jpg, id=259, 602.25pt x 739.76375pt>
 File: img/charging-diagram.jpg Graphic file (type jpg)
 
 <use img/charging-diagram.jpg>
-Package pdftex.def Info: img/charging-diagram.jpg used on input line 151.
+Package pdftex.def Info: img/charging-diagram.jpg used on input line 144.
 (pdftex.def)             Requested size: 131.46617pt x 161.48961pt.
- [11
+ [10
 
  <./img/charging-diagram.jpg>]
-<img/charging-level-curves.jpg, id=310, 757.83125pt x 742.775pt>
+<img/points-l-and-r.jpg, id=285, 574.145pt x 774.895pt>
+File: img/points-l-and-r.jpg Graphic file (type jpg)
+
+<use img/points-l-and-r.jpg>
+Package pdftex.def Info: img/points-l-and-r.jpg used on input line 156.
+(pdftex.def)             Requested size: 119.64537pt x 161.48961pt.
+ [11
+
+ <./img/points-l-and-r.jpg>]
+<img/charging-level-curves.jpg, id=311, 757.83125pt x 742.775pt>
 File: img/charging-level-curves.jpg Graphic file (type jpg)
 
 <use img/charging-level-curves.jpg>
-Package pdftex.def Info: img/charging-level-curves.jpg used on input line 163.
+Package pdftex.def Info: img/charging-level-curves.jpg used on input line 168.
 (pdftex.def)             Requested size: 164.75758pt x 161.48961pt.
  [12
 
  <./img/charging-level-curves.jpg>]
-<img/charging-energy-diagram.jpg, id=336, 648.4225pt x 784.9325pt>
+<img/charging-energy-diagram.jpg, id=337, 648.4225pt x 784.9325pt>
 File: img/charging-energy-diagram.jpg Graphic file (type jpg)
 
 <use img/charging-energy-diagram.jpg>
-Package pdftex.def Info: img/charging-energy-diagram.jpg used on input line 175
+Package pdftex.def Info: img/charging-energy-diagram.jpg used on input line 180
 .
 (pdftex.def)             Requested size: 133.40239pt x 161.48961pt.
  [13
 
  <./img/charging-energy-diagram.jpg>]
-<img/points-l-and-r.jpg, id=364, 574.145pt x 774.895pt>
-File: img/points-l-and-r.jpg Graphic file (type jpg)
-
-<use img/points-l-and-r.jpg>
-Package pdftex.def Info: img/points-l-and-r.jpg used on input line 187.
-(pdftex.def)             Requested size: 119.64537pt x 161.48961pt.
- [14
-
- <./img/points-l-and-r.jpg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 219.
+LaTeX Font Info:    Try loading font information for U+msa on input line 212.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 219.
+LaTeX Font Info:    Try loading font information for U+msb on input line 212.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [15
+) [14
 
-] [16
+] [15
 
 ]
 Package epstopdf Info: Source file: <img/two-qubit-sem-probe.eps>
@@ -965,32 +963,44 @@ df>
 (epstopdf)                    size: 76083 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/two-qubit-sem-probe-ep
 s-converted-to.pdf img/two-qubit-sem-probe.eps>
-(epstopdf)             \includegraphics on input line 253.
+(epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/two-qubit-sem-probe-eps-converted-to.pdf, id=450, 495.8525pt x 370.38374pt
+<img/two-qubit-sem-probe-eps-converted-to.pdf, id=425, 495.8525pt x 370.38374pt
 >
 File: img/two-qubit-sem-probe-eps-converted-to.pdf Graphic file (type pdf)
  <use img/two-qubit-sem-probe-eps-converted-to.pdf>
 Package pdftex.def Info: img/two-qubit-sem-probe-eps-converted-to.pdf used on i
-nput line 253.
+nput line 246.
 (pdftex.def)             Requested size: 245.83282pt x 183.62592pt.
- [17
+ [16
 
  <./img/two-qubit-sem-probe-eps-converted-to.pdf>]
-<img/probe-current-osc.jpg, id=480, 602.25pt x 768.8725pt>
+<img/probe-current-osc.jpg, id=454, 602.25pt x 768.8725pt>
 File: img/probe-current-osc.jpg Graphic file (type jpg)
 
 <use img/probe-current-osc.jpg>
-Package pdftex.def Info: img/probe-current-osc.jpg used on input line 265.
+Package pdftex.def Info: img/probe-current-osc.jpg used on input line 270.
 (pdftex.def)             Requested size: 126.4946pt x 161.48961pt.
- [18
+ [17
 
  <./img/probe-current-osc.jpg>]
-File: img/probe-current-osc.jpg Graphic file (type jpg)
+<img/freq-vs-ej1.jpg, id=481, 602.25pt x 500.87125pt>
+File: img/freq-vs-ej1.jpg Graphic file (type jpg)
 
-<use img/probe-current-osc.jpg>
-Package pdftex.def Info: img/probe-current-osc.jpg used on input line 277.
+<use img/freq-vs-ej1.jpg>
+Package pdftex.def Info: img/freq-vs-ej1.jpg used on input line 286.
+(pdftex.def)             Requested size: 194.17589pt x 161.48961pt.
+
+Overfull \vbox (4.39568pt too high) detected at line 286
+ []
+
+[18
+
+ <./img/freq-vs-ej1.jpg>]
+File: img/probe-current-osc.jpg Graphic file (type jpg)
+ <use img/probe-current-osc.jpg>
+Package pdftex.def Info: img/probe-current-osc.jpg used on input line 298.
 (pdftex.def)             Requested size: 126.4946pt x 161.48961pt.
  [19
 
@@ -1005,15 +1015,15 @@ Package epstopdf Info: Source file: <img/evaporation.eps>
 (epstopdf)                    size: 8995 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/evaporation-eps-conver
 ted-to.pdf img/evaporation.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 324.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/evaporation-eps-converted-to.pdf, id=557, 601.24625pt x 444.66125pt>
+<img/evaporation-eps-converted-to.pdf, id=560, 601.24625pt x 444.66125pt>
 File: img/evaporation-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/evaporation-eps-converted-to.pdf>
 Package pdftex.def Info: img/evaporation-eps-converted-to.pdf used on input lin
-e 303.
+e 324.
 (pdftex.def)             Requested size: 245.83282pt x 181.8102pt.
  [21
 
@@ -1026,22 +1036,22 @@ Package epstopdf Info: Source file: <img/ebeam.eps>
 (epstopdf)                    size: 9116 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/ebeam-eps-converted-to
 .pdf img/ebeam.eps>
-(epstopdf)             \includegraphics on input line 314.
+(epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
- <img/ebeam-eps-converted-to.pdf, id=590, 563.10374pt x 424.58624pt>
+ <img/ebeam-eps-converted-to.pdf, id=593, 563.10374pt x 424.58624pt>
 File: img/ebeam-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/ebeam-eps-converted-to.pdf>
-Package pdftex.def Info: img/ebeam-eps-converted-to.pdf used on input line 314.
+Package pdftex.def Info: img/ebeam-eps-converted-to.pdf used on input line 335.
 
 (pdftex.def)             Requested size: 285.56377pt x 215.31812pt.
  [22
 
  <./img/ebeam-eps-converted-to.pdf>]
-<img/etching.jpg, id=622, 751.80875pt x 857.2025pt>
+<img/etching.jpg, id=625, 751.80875pt x 857.2025pt>
 File: img/etching.jpg Graphic file (type jpg)
  <use img/etching.jpg>
-Package pdftex.def Info: img/etching.jpg used on input line 326.
+Package pdftex.def Info: img/etching.jpg used on input line 347.
 (pdftex.def)             Requested size: 141.62914pt x 161.48961pt.
 
 [23
@@ -1055,24 +1065,24 @@ Package epstopdf Info: Source file: <img/lift-off.eps>
 (epstopdf)                    size: 14557 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/lift-off-eps-converted
 -to.pdf img/lift-off.eps>
-(epstopdf)             \includegraphics on input line 339.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/lift-off-eps-converted-to.pdf, id=648, 502.87875pt x 673.51625pt>
+<img/lift-off-eps-converted-to.pdf, id=651, 502.87875pt x 673.51625pt>
 File: img/lift-off-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/lift-off-eps-converted-to.pdf>
 Package pdftex.def Info: img/lift-off-eps-converted-to.pdf used on input line 3
-39.
+60.
 (pdftex.def)             Requested size: 120.57826pt x 161.48961pt.
  [24
 
- <./img/lift-off-eps-converted-to.pdf>] <img/two-qubit-sem.jpg, id=680, 596.227
+ <./img/lift-off-eps-converted-to.pdf>] <img/two-qubit-sem.jpg, id=683, 596.227
 5pt x 460.72125pt>
 File: img/two-qubit-sem.jpg Graphic file (type jpg)
 
 <use img/two-qubit-sem.jpg>
-Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 351.
+Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 372.
 (pdftex.def)             Requested size: 215.10196pt x 166.21101pt.
  [25
 
@@ -1088,11 +1098,11 @@ Package pdftex.def Info: img/two-qubit-sem.jpg used on input line 351.
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1100,13 +1110,13 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
  ) 
 Here is how much of TeX's memory you used:
- 15709 strings out of 495028
- 290780 string characters out of 6181497
+ 15714 strings out of 495028
+ 290890 string characters out of 6181497
  365900 words of memory out of 5000000
- 18481 multiletter control sequences out of 15000+600000
+ 18485 multiletter control sequences out of 15000+600000
  11867 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,14n,53p,455b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1118,16 +1128,17 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-bm7.pfb>
-Output written on slides.pdf (26 pages, 1082885 bytes).
+ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on slides.pdf (26 pages, 1140795 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 709 compressed objects within 8 object streams
+ 799 PDF objects out of 1000 (max. 8388607)
+ 715 compressed objects within 8 object streams
  53 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
