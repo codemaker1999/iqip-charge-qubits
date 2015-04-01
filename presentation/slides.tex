@@ -217,18 +217,22 @@
     \frametitle{Coupling of Two Qubits}
     \framesubtitle{Theory}
     \begin{block}{Probabilities}
-        \fontsize{8}{18}\selectfont
-        Initially, $|\psi\rangle=|00\rangle$
-
-        Using this Hamiltonian and an ideal rectangular pulse of length $\Delta t$,
-
-        $p_{1,2}(1)=\frac{1}{4} \Bigg ( 2-(1-\chi_{1,2})cos[(\Omega+\epsilon)\Delta t]-(1+\chi_{1,2})cos[(\Omega-\epsilon)\Delta t] \Bigg )$
-
-        Where...
+        \fontsize{8}{14}\selectfont
         \begin{itemize}
-            \item $\chi_{1,2}=\frac{E^2_{J2,J1}-E^2_{J1,J2})+E^2_m/4}{4\hbar^2\Omega\epsilon}$
-            \item $\Omega = \sqrt{(E_{J1}+E_{J2})^2+(E_m/2)^2}/2\hbar$
-            \item $\epsilon = \sqrt{(E_{J1}-E_{J2})^2+(E_m/2)^2}/2\hbar$
+            \item At the coresonance point, we have a coherent superposition state $|\psi\rangle=c_1|00\rangle + c_2|10\rangle + c_3|01\rangle + c_4|11\rangle$
+
+            \item ie, the qubit state probabilities are $p_1(1) = |c_2|^2 + |c_4|^2$ and $p_2(1) = |c_3|^2 + |c_4|^2$
+
+            \item Now we initialize system to $|\psi\rangle=|00\rangle$
+
+            \item Using this Hamiltonian and an ideal rectangular pulse of length $\Delta t$, $p_{1,2}(1)=\frac{1}{4} \Bigg ( 2-(1-\chi_{1,2})cos[(\Omega+\epsilon)\Delta t]-(1+\chi_{1,2})cos[(\Omega-\epsilon)\Delta t] \Bigg )$
+
+            Where...
+            \begin{itemize}
+                \item $\chi_{1,2}=\frac{(E^2_{J2,J1}-E^2_{J1,J2})+E^2_m/4}{4\hbar^2\Omega\epsilon}$
+                \item $\Omega = \sqrt{(E_{J1}+E_{J2})^2+(E_m/2)^2}/2\hbar$
+                \item $\epsilon = \sqrt{(E_{J1}-E_{J2})^2+(E_m/2)^2}/2\hbar$
+            \end{itemize}
         \end{itemize}
     \end{block}
 \end{frame}
@@ -251,8 +255,9 @@
     \frametitle{Coupling of Two Qubits}
     \framesubtitle{Parameter Measurements / Frequency Responses}
     \begin{columns}
-        \column{.3\textwidth}
-            \fontsize{6}{10}\selectfont
+        \column{.35\textwidth}
+            \fontsize{6}{9}\selectfont
+            Probe currents are proportional to the qubit state probabilities: $I_1 \propto p_1(1) = |c_2|^2 + |c_4|^2$ and $I_2 \propto p_2(1) = |c_3|^2 + |c_4|^2$
             \begin{itemize}
                 \item Tune system by bringing to point L or R, exciting oscillations in one qubit
                 \item Get cosines with exponential decay
@@ -260,7 +265,7 @@
                 \item Drive system to point X and perform same Fourier measurement
                 \item This time, get 2 frequencies, $\Omega \pm \epsilon$
             \end{itemize}
-        \column{.7\textwidth}
+        \column{.65\textwidth}
             \begin{figure}[ht!]
                 \centering
                 \includegraphics[height=0.6\textheight]{img/probe-current-osc.jpg}
