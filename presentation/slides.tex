@@ -224,19 +224,30 @@
 
 \begin{frame}
     \frametitle{Coupling of Two Qubits}
+    \framesubtitle{State Readout}
+    \begin{itemize}
+        % \fontsize{6}{8}\selectfont
+        \item Probe currents are proportional to the qubit state probabilities: $I_1 \propto p_1(1) = |c_2|^2 + |c_4|^2$ and $I_2 \propto p_2(1) = |c_3|^2 + |c_4|^2$
+        \item The current oscillation frequency is related to the Josephson energy as: $\omega_{1,2}=\frac{E_{J1,J2}}{\hbar}$
+    \end{itemize}
+\end{frame}
+
+%%%
+
+\begin{frame}
+    \frametitle{Coupling of Two Qubits}
     \framesubtitle{Parameter Measurements / Frequency Responses}
     \begin{columns}
-        \column{.35\textwidth}
-            \fontsize{6}{9}\selectfont
-            Probe currents are proportional to the qubit state probabilities: $I_1 \propto p_1(1) = |c_2|^2 + |c_4|^2$ and $I_2 \propto p_2(1) = |c_3|^2 + |c_4|^2$
+        \column{.3\textwidth}
             \begin{itemize}
+                \fontsize{7}{8}\selectfont
                 \item Tune system by bringing to point L or R, exciting oscillations in one qubit
                 \item Get cosines with exponential decay
                 \item Fourier transform gives frequencies, which define $E_{J1}$ or $E_{J2}$
                 \item Drive system to point X and perform same Fourier measurement
                 \item This time, get 2 frequencies, $\Omega \pm \epsilon$
             \end{itemize}
-        \column{.65\textwidth}
+        \column{.7\textwidth}
             \begin{figure}[ht!]
                 \centering
                 \includegraphics[height=0.6\textheight]{img/probe-current-osc.jpg}
