@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  1 APR 2015 23:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.21)  2 APR 2015 07:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,7 +1076,7 @@ nput line 306.
 File: img/probe-current-osc.jpg Graphic file (type jpg)
 
 <use img/probe-current-osc.jpg>
-Package pdftex.def Info: img/probe-current-osc.jpg used on input line 342.
+Package pdftex.def Info: img/probe-current-osc.jpg used on input line 343.
 (pdftex.def)             Requested size: 126.4946pt x 161.48961pt.
  [24
 
@@ -1085,10 +1085,10 @@ Package pdftex.def Info: img/probe-current-osc.jpg used on input line 342.
 File: img/freq-vs-ej1.jpg Graphic file (type jpg)
 
 <use img/freq-vs-ej1.jpg>
-Package pdftex.def Info: img/freq-vs-ej1.jpg used on input line 358.
+Package pdftex.def Info: img/freq-vs-ej1.jpg used on input line 359.
 (pdftex.def)             Requested size: 194.17589pt x 161.48961pt.
 
-Overfull \vbox (4.39568pt too high) detected at line 358
+Overfull \vbox (4.39568pt too high) detected at line 359
  []
 
 [25
@@ -1107,11 +1107,11 @@ Overfull \vbox (4.39568pt too high) detected at line 358
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 410.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 410.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 410.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 410.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1119,12 +1119,12 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 410.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 411.
  ) 
 Here is how much of TeX's memory you used:
  15760 strings out of 495028
  292035 string characters out of 6181497
- 365900 words of memory out of 5000000
+ 365899 words of memory out of 5000000
  18527 multiletter control sequences out of 15000+600000
  14233 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1148,7 +1148,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on slides.pdf (27 pages, 1301979 bytes).
+Output written on slides.pdf (27 pages, 1302523 bytes).
 PDF statistics:
  844 PDF objects out of 1000 (max. 8388607)
  753 compressed objects within 8 object streams
