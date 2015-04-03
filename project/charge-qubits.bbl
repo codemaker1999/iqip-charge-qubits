@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{onePulseGatePhysica}
+Yu.~A. Pashkin, T.~Yamamoto, O.~Astafiev, Y.~Nakamura, D.~V. Averin, T.~Tilma,
+  F.~Nori, and J.~S. Tsai.
+\newblock Coherent manipulation of coupled josephson charge qubits.
+\newblock {\em Physica C}, 426–431, 2005.
+
+\bibitem{onePulseGateNature}
+Yu.~A. Pashkin, T.~Yamamoto, O.~Astafiev, Y.~Nakamura, D.~V. Averin, and J.~S.
+  Tsai.
+\newblock Quantum oscillations in two coupled charge qubits.
+\newblock {\em Nature}, 421, 2003.
+
+\bibitem{twoPulseGates}
+T.~Yamamoto, Yu.~A. Pashkin, O.~Astafiev, Y.~Nakamura, and J.~S. Tsai.
+\newblock Demonstration of conditional gate operation using superconducting
+  charge qubits.
+\newblock {\em Nature}, 425, 2003.
+
+\end{thebibliography}
