@@ -10,23 +10,55 @@
 
 \maketitle
 
-%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Abstract
 \begin{abstract}
 \doublespacing
 \noindent
-Superconducting circuits provide interesting ways to achieve qubit systems, along with many engineering challanges and hence new physics. One such type of system is the charge qubit, which has passed several milestones over the past few years. This paper will make use of several papers to review these recent successes, namely the demonstration of a coherent qubit \cite{singleCooperPair} and subsequent demonstrations of two-qubit systems with entanglement \cite{twoPulseGates} \cite{onePulseGateNature} \cite{onePulseGatePhysica}.
+Superconducting circuits provide interesting ways to achieve qubit systems, along with many engineering challanges and hence new physics. One such type of system is the charge qubit, which has passed several milestones over the past few years. This paper will make use of several papers to both give a brief introduction to the fabrication of these devices and to review these recent successes, namely the demonstration of a coherent qubit \cite{singleCooperPair} and subsequent demonstrations of entangled two-qubit systems \cite{twoPulseGates}\cite{onePulseGateNature}\cite{onePulseGatePhysica}.
 \end{abstract}
 
-%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Main
 \pagebreak
 \doublespacing
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in dapibus turpis, vitae ultrices ligula. Morbi volutpat consequat lorem eget blandit. Curabitur rhoncus lacinia erat, vel imperdiet sapien molestie sit amet. Fusce elementum nisl feugiat bibendum mollis. Aliquam erat volutpat. Nullam feugiat felis sem, nec tempor nulla interdum sed. Cras ultrices maximus quam vel commodo. Integer posuere mauris vitae purus malesuada egestas. Donec aliquam tincidunt aliquam. Etiam accumsan iaculis ipsum at rhoncus. Sed sed augue augue. Suspendisse vitae dui ut nisl egestas congue amet.
 
-Morbi eu libero augue. Sed hendrerit dui ligula, sit amet molestie turpis eleifend non. Aliquam in eleifend augue. Morbi eleifend urna sit amet lorem semper efficitur. Vivamus dignissim at ligula in fringilla. Quisque sed risus fringilla ligula sodales porttitor vitae sit amet tortor. Sed congue vitae metus vel dictum. Sed in imperdiet quam, a hendrerit arcu. Aenean vehicula quam eu nisi pulvinar, in blandit libero rutrum. Nulla vulputate rhoncus nunc, eget rutrum nisl mattis vel. Mauris ante magna, posuere nec ullamcorper sit amet, fermentum in turpis. Ut rhoncus vehicula ex id tincidunt. Vestibulum luctus vel neque et vestibulum. Mauris commodo fermentum ante, in vestibulum mauris facilisis ac. Integer pharetra, justo nec elementum finibus, nunc lectus sagittis leo, nec lobortis est est sit amet eros. Nam quis nulla scelerisque, tincidunt lacus eget, cursus libero.
+%
+%   General Info / Background
+%
 
-%%%%%%%%%%
+\section*{General Info}
+
+The Cooper pair box (CPB), shown in Fig. 1, is the starting point for charge-based superconducting qubits. In this device, there is a thin insulating layer between the two chunks of superconducting metal (grey boxes), acting as an electron tunneling junction. Due to the low temperature of the system, electrons condense into Cooper pairs due to an electron-phonon interaction, leading to the superconductivity. Small circuits like this, under superconducting conditions, will exhibit Josephson effects. That is, there will be a current flowing across the insulator due to tunneling.
+
+\hfill
+
+First, an outline of how a CPBs can be turned into a qubit will be presented. The general idea is to base the state of the qubit on the number of excess Cooper pairs are on the \"island\" of the CPB. Certain fabrication constraints on the cicuits must be imposed to obtain a usable coherent qubit, such as sub-femto Farad capacitors and specific relationships between energies of the system (Josephson, coupling, and charging energies). Under correct conditions, only Cooper pairs will tunnel, and the system Hamiltonian is
+
+$H=4E_c(n-n_g)^2-E_Jcos\Theta$ \\
+Where $E_C$ is the charging energy, $n$ is the number operator of excess Cooper pairs, $n_g=C_gV_g/2e$ is the number operator control parameter due to the gate voltage, $E_J$ is the Josephson coupling energy, and $\Theta$ is the phase difference across the junction.
+
+%
+%   Fabrication
+%
+
+\section*{Fabrication}
+
+%
+%   One-Qubit Experiments
+%
+
+\section*{One-Qubit Experiments}
+
+
+
+%
+%   Two-Qubit Experiments
+%
+
+\section*{Two-Qubit Experiments}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bib
 \bibliographystyle{plain}
 \bibliography{charge-qubits}

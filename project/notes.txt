@@ -1,0 +1,109 @@
+General
+--------
+
+* fig of CPB
+
+* small sc circuits exhibiting the Josephson effect can be exploited to create qubits
+
+* general idea: base num of cp on island, define states by excess # cp
+
+* By specific fab, we can indeed create conditions in which coherent qubits can be acheived [#] (only cp tunnel)
+    ie...
+    * sub-femto capacitance
+    * specific relationships between energies in the sys (josephson, coupling, charging, ...)
+
+* sys ham is then H=4E_c(n-n_g)^2-E_Jcos\Theta
+
+* various voltage gates employed, coupled in by capacitors
+    * gate: control n_g
+    * manip done by voltage pulse gates
+
+* for specifics of how CPBs and SQUIDs work and derivations and shit like that, refer to pages pages 359-366 of [reviewPaper]
+
+
+
+Fab
+----
+
+* Typical fab tech as follows [onePulseGatePhysica]
+
+* Al shadow evap'd
+
+* mask prep'd by ebeam lith and dry etch
+
+* Al + O2 in evap chamber causes oxidation
+    * different time and gas pressure used to acheive different junction params for JJs and probe juncs
+
+* circuit op'd in dilute fridge with mixing chamber temp of 40mK
+
+
+
+One-Qubit
+----------
+
+* Idea
+    * attach CPB to SQUID
+    * |0>=n CPs, |1>=n+1 CPs
+    * superposn coupling from tunneling CPs
+    * control evolution coherently with voltage pulse (modify energies of levels)
+
+* Fig 2
+    * tuning Qt with the gate voltage we can bring energies to equality
+    * however because of josephson coupling there is splitting and we can have coherent superposn state. This is the basis of the qubit.
+
+* evo
+    * choose initial Vg s.t. island is in ground state
+    * apply sharp voltage pulse to bring system to superposn state nonadiabatically. qb now osc around between ground and excited for pulse duration.
+
+* meas
+    * qbs evolve through pulse, pulse ends
+    * quasiparts tunnel through probe junction, measd as current
+    * probes always connected throughout this evo => must be fairly large resistance to reduce decoherence of qb
+    * in this exp, single pulse did not produce measable current, fix with pulse array
+    * find current peaks which dont dep on time between pulses (Tr) see fig 2
+    * fig 3 shows plot of just the pulse-indeced comp of cur, and its dep on delta t
+
+* results
+    * by numerically solving a time dep schro eqn, the second graph in fig 3 was obtained
+    * validates experimental results since I \propto <P(excited)>
+
+
+
+Two-Qubit
+----------
+
+* now that we have blah blah, can start adding qubits. q computers are cool blah blah
+
+* idea: couple CPB to SQUID-controlled box by capacitor to get entangled states
+
+* 
+
+
+
+Discussion
+-----------
+
+* much work done on one, some successes in two, future is bright and shit
+
+* other implems like flux qbs and transmon qbs also likely have interesting  work in future
+
+* potential to scale makes s.s.sys good contender for large q comps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
