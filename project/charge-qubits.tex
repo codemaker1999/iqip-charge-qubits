@@ -2,6 +2,8 @@
 \usepackage{setspace}
 \usepackage{natbib}
 
+\setlength{\parskip}{2em}
+
 \begin{document}
 
 \title{Review of Experimental Demonstrations of Superconducting Charge Qubits}
@@ -31,11 +33,10 @@ Superconducting circuits provide interesting ways to achieve qubit systems, alon
 
 The Cooper pair box (CPB), shown in Fig. 1, is the starting point for charge-based superconducting qubits. In this device, there is a thin insulating layer between the two chunks of superconducting metal (grey boxes), acting as an electron tunneling junction. Due to the low temperature of the system, electrons condense into Cooper pairs due to an electron-phonon interaction, leading to the superconductivity. Small circuits like this, under superconducting conditions, will exhibit Josephson effects. That is, there will be a current flowing across the insulator due to tunneling.
 
-\hfill
-
 First, an outline of how a CPBs can be turned into a qubit will be presented. The general idea is to base the state of the qubit on the number of excess Cooper pairs are on the \"island\" of the CPB. Certain fabrication constraints on the cicuits must be imposed to obtain a usable coherent qubit, such as sub-femto Farad capacitors and specific relationships between energies of the system (Josephson, coupling, and charging energies). Under correct conditions, only Cooper pairs will tunnel, and the system Hamiltonian is
 
-$H=4E_c(n-n_g)^2-E_Jcos\Theta$ \\
+$H=4E_c(n-n_g)^2-E_Jcos\Theta$
+
 Where $E_C$ is the charging energy, $n$ is the number operator of excess Cooper pairs, $n_g=C_gV_g/2e$ is the number operator control parameter due to the gate voltage, $E_J$ is the Josephson coupling energy, and $\Theta$ is the phase difference across the junction.
 
 %
