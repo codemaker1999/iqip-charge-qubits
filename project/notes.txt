@@ -76,7 +76,34 @@ Two-Qubit
 
 * idea: couple CPB to SQUID-controlled box by capacitor to get entangled states
 
-* 
+* circuit of one such exp [#] shown in fig 4
+    * common pulse gate with approx equal coupling to each box (some experiments use two pulse gates)
+    * two dc gates, two probes, two boxes
+    * designed st can estimate parameters in circuit diagram (charging energies, josephson energies, ...)
+
+* ham..?
+
+* for such a setup, a countour plot of the ground-state as fun of gate induced charges given in fig 5 [onePulseGatePhysica]
+    * dotted lines are degen
+    * (0,0) is minima, can assume close to (0,0) => stay at (0,0)
+    * X maxima, this is where we get 4 level sys approx
+    * This img is from one-pulse-gate exp, so gate causes 45deg shift in charges, indicated by arrows
+
+* electrostatic => at L and R the system will behave as one osc qb with freq $\omega=E_J/\hbar$
+
+* with correctly designed circuit, can achieve energy splitting as seen in fig 6
+
+* To show the coupling, use pulses of differing lengths and meas the osc (use array of pulses as before)
+
+* first meas the qbs at L and R to get E_{J1,J2}, then drive to X and meas in the coupled scenario
+
+* using ham and perfect rectangular pulse can derive prob of being in excited state $...$, ie we have two freqs
+
+* should see two freqs in cur measments => we do => qbs coupled => qbs entangled
+
+* [explain how dual-pulse-gate CNOT works? it's too looonngggg...]
+
+* Yamamoto's group used a two-pulse-gate setup to perform a CNOT gate
 
 
 
