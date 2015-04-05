@@ -95,7 +95,7 @@ Two-Qubit
 
 * To show the coupling, use pulses of differing lengths and meas the osc (use array of pulses as before)
 
-* first meas the qbs at L and R to get E_{J1,J2}, then drive to X and meas in the coupled scenario
+* first meas the qbs at L and R to get E_{J1,J2}, then drive to X and meas in the coupled scenario$
 
 * using ham and perfect rectangular pulse can derive prob of being in excited state $...$, ie we have two freqs
 

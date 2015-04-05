@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: charge-qubits.aux
 The style file: plain.bst
 Database file #1: charge-qubits.bib
-You've used 4 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            523 strings with 4779 characters,
-and the built_in function-call counts, 1532 in all, are:
-= -- 131
-> -- 132
+            537 strings with 5079 characters,
+and the built_in function-call counts, 2087 in all, are:
+= -- 183
+> -- 168
 < -- 0
-+ -- 52
-- -- 48
-* -- 130
-:= -- 293
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 36
++ -- 66
+- -- 60
+* -- 169
+:= -- 397
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 48
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 41
-empty$ -- 75
-format.name$ -- 48
-if$ -- 286
+cite$ -- 6
+duplicate$ -- 61
+empty$ -- 110
+format.name$ -- 60
+if$ -- 395
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 4
-newline$ -- 23
-num.names$ -- 8
-pop$ -- 28
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 36
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 42
 quote$ -- 0
-skip$ -- 31
+skip$ -- 47
 stack$ -- 0
-substring$ -- 29
-swap$ -- 4
+substring$ -- 39
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
+type$ -- 24
 warning$ -- 0
-while$ -- 9
-width$ -- 5
-write$ -- 46
+while$ -- 13
+width$ -- 7
+write$ -- 68

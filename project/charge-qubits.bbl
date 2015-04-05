@@ -5,6 +5,17 @@ V.~Bouchiat, D.~Vion, P.~Joyez, D.~Esteve, and M.~H. Devoret.
 \newblock Quantum coherence with a single cooper pair.
 \newblock {\em Physica Scripta}, 1998(T76):165, 1998.
 
+\bibitem{reviewPaper}
+Y.~Makhlin, G.~Sch{\"o}n, and A.~Shnirman.
+\newblock Quantum-state engineering with josephson-junction devices.
+\newblock {\em Reviews of Modern Physics}, 73(357), 2001.
+
+\bibitem{singleCPB}
+Y.~Nakamura, Yu.~A. Pashkin, and J.~S. Tsai.
+\newblock Coherent control of macroscopic quantum states in a
+  single-cooper-pair box.
+\newblock {\em Nature}, 398, 1999.
+
 \bibitem{onePulseGatePhysica}
 Yu.~A. Pashkin, T.~Yamamoto, O.~Astafiev, Y.~Nakamura, D.~V. Averin, T.~Tilma,
   F.~Nori, and J.~S. Tsai.
