@@ -35,24 +35,19 @@ Superconducting circuits provide interesting ways to achieve qubit systems, alon
 
 \section*{General Info}
 
-The Cooper pair box (CPB), shown in Fig. 1, is the starting point for charge-based superconducting qubits. In this device, there is a thin insulating layer between the two chunks of superconducting metal (grey boxes), acting as an electron tunneling junction. Due to the low temperature of the system, electrons condense into Cooper pairs due to an electron-phonon interaction, leading to the superconductivity. Small circuits like this, under superconducting conditions, will exhibit Josephson effects. That is, there will be a current flowing across the insulator due to tunneling.
+The Cooper pair box is the starting point for charge-based superconducting qubits. In this device, there is a thin insulating layer between the two chunks of superconducting metal (grey boxes), acting as an electron tunneling junction. Due to the low temperature of the system, electrons condense into Cooper pairs due to an electron-phonon interaction, leading to the superconductivity. Small circuits like this, under superconducting conditions, will exhibit Josephson effects. That is, there will be a current flowing across the insulator due to tunneling.
 
-First, an outline of how a CPBs can be turned into a qubit will be presented. The general idea is to base the state of the qubit on the number of excess Cooper pairs are on the \"island\" of the CPB. Certain fabrication constraints on the cicuits must be imposed to obtain a usable coherent qubit, such as sub-femto Farad capacitors and specific relationships between energies of the system (Josephson, coupling, and charging energies). Under correct conditions, only Cooper pairs will tunnel, and the system Hamiltonian is
+The general idea is to base the state of the qubit on the number of excess Cooper pairs are on the island of the CPB. Certain fabrication constraints on the cicuits must be imposed to obtain a usable coherent qubit, such as specific relationships between energies of the system (Josephson, coupling, and charging energies). Under correct conditions, only Cooper pairs will tunnel, and the system Hamiltonian is
 
 $H=4E_c(n-n_g)^2-E_Jcos\Theta$
 
-Where $E_C$ is the charging energy, $n$ is the number operator of excess Cooper pairs, $n_g=C_gV_g/2e$ is the number operator control parameter due to the gate voltage, $E_J$ is the Josephson coupling energy, and $\Theta$ is the phase difference across the junction.
-
-edit this shit... refer to \cite{reviewPaper} for a detailed introduction to superconducting qubits
+Where $E_C$ is the charging energy, $n$ is the number operator of excess Cooper pairs, $n_g=C_gV_g/2e$ is the number operator control parameter due to the gate voltage, $E_J$ is the Josephson coupling energy, and $\Theta$ is the phase difference across the junction. Using this framework, some groups have demonstrated control of one or more qubits. Refer to \cite{reviewPaper} for a detailed introduction to superconducting qubits.
 
 %
 %   Fabrication
 %
 
 \section*{Fabrication}
-
-% could throw some pictures in here
-[images]
 
 Typical fabrication techniques exist for these superconducting devices, and a possible procedure for making and operating them is as follows \cite{onePulseGatePhysica}. The circuit metal used is aluminum, which is evaporated onto a substrate. A mask for shadow evaporation is prepared using electron-beam lithography and dry etching, which allows overlapping aluminum structures to be fabricated. Exposing aluminum to oxygen at set pressure and time causes a layer of oxidation to build up on the surface, which provides a convenient tunnel junction. Different times and pressures are ued to acheive different junction parameters for Josephson junctions and probe junctions. The final circuit is operated in a dilution fridge with a mixing chamber temperature of about 40mK.
 
@@ -74,7 +69,7 @@ Figure 1 shows an implementation of a single-qubit device. The DC gate can be co
 
 Due to Josephson coupling, the system will exhibit an oscillating behaviour when the total induced charge reaches certain values. The idea here is to initialize the qubit with the gate voltage, and then apply a sharp pulse with the pulse gate. This will non-adiabatically drive the system into resonance between ground and excited state for the pulse duration.
 
-The state measurements are done with the probes. These probes measure current, which is caused by quasiparticles tunneling through the probe junction from the excited qubit state. The probes are connected throughout the qubit evolution (the length of the pulse), so they must have a fairly high tunnel resistance to keep decoherence down.
+The state measurements are done with the probe. This probe measures current, which is caused by quasiparticles tunneling through the probe junction from the excited qubit state. The probes are connected throughout the qubit evolution (the length of the pulse), so they must have a fairly high tunnel resistance to keep decoherence down.
 
 A single voltage pulse may not produce a measurable signal \cite{singleCPB}, so a technique using arrays of pulses is often employed. This involves performing many pulses separated by a time $T_r$, such that $T_r$ is longer than the qubit relaxation time. Through this method, you find that the current peaks measured do not depend on $T_r$, and so only depend on the pulse length.
 
@@ -84,7 +79,7 @@ A single voltage pulse may not produce a measurable signal \cite{singleCPB}, so 
     \caption{Effect of applying pulses as a function of DC induced charge $Q_0$ and pulse length $\Delta t$ (Nakamura, Pashkin, Tsai, 1999) \cite{singleCPB}. Colours inverted for printing.}
 \end{figure}
 
-Figure 2a shows the oscillating current response caused by the pulse, for various values of the induced charge from the gate voltage. Figure 2b was generate by numerically solving a time dependent Schr{\"o}dinger equation. The agreement between these figures shows that the theory accurately predicts the oscillations between qubit states. Further discussion of these coherent oscillations can be found in \cite{singleCPB}.
+Figure 2a shows the oscillating current response caused by the pulse, for various values of the induced charge from the gate voltage. Figure 2b was generate by numerically solving a time dependent Schr\"odinger equation. The agreement between these figures shows that the theory accurately predicts the oscillations between qubit states. Further discussion of these coherent oscillations can be found in \cite{singleCPB}.
 
 %
 %   Two-Qubit Experiments
@@ -104,9 +99,43 @@ Figure 3 shows a circuit for such an experiment. Note the pulse gate, which is c
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\textwidth]{img/two-qubit-circuit.jpg}
-    \caption{SEM of two-qubit device with equivalent circuit diagram (Nakamura, Pashkin, Tsai, 2003) \cite{onePulseGateNature}}
+    \includegraphics[width=0.5\textwidth]{img/charging-level-curves.jpg}
+    \caption{Level curves of the charging diagram (Nakamura, Pashkin, Tsai, 2003) \cite{onePulseGateNature}}
 \end{figure}
+
+Figure 4 is a contour plot of the charging energies. The points (0,0), (0,1), (1,0), and (1,1) are minima, and X is a maxima. This image is from an experiment with one pulse gate, so pulses will cause a shift at a 45 degrees angle (black arrows). At the points L and R we see oscillations in only one qubit, and at point X we get both degeneracies at once. With a properly designed circuit we can apply an approximation of a four-level system at point X where the energy levels split due to Josephson effects.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[height=0.6\textheight]{img/probe-current-osc.jpg}
+    \caption{Probe current measurements (Nakamura, Pashkin, Tsai, 2003) \cite{onePulseGateNature}}
+\end{figure}
+
+To show the system is coupled, pulse arrays are once again used. First, the current is measured individually at L and R, and a Fourier transform is used to get the oscillation frequency, and the Josephson energy is obtained with $\omega=E_J/\hbar$. Then the system is pulsed to point X, and the frequency measurements are repeated. However, in the coupled case the Fourier transform yields two characteristic frequencies. The results can be seen in Figure 5. These two frequencies can be understood by looking at the theory.
+
+A derivation of the probability that the qubits are in the excited state following an ideal rectangular pulse of length $\Delta t$ is given in \cite{onePulseGateNature}. The result is the following:
+
+$p_{1,2}(1)=\frac{1}{4} \Bigg ( 2-(1-\chi_{1,2})cos[(\Omega+\epsilon)\Delta t]-(1+\chi_{1,2})cos[(\Omega-\epsilon)\Delta t] \Bigg )$
+
+Where...
+\begin{itemize}
+    \item $E_m$ is the coupling energy
+    \item $\chi_{1,2}=\frac{(E^2_{J2,J1}-E^2_{J1,J2})+E^2_m/4}{4\hbar^2\Omega\epsilon}$
+    \item $\Omega = \sqrt{(E_{J1}+E_{J2})^2+(E_m/2)^2}/2\hbar$
+    \item $\epsilon = \sqrt{(E_{J1}-E_{J2})^2+(E_m/2)^2}/2\hbar$
+\end{itemize}
+
+Note that there are two frequencies in this expression, $\Omega \pm \epsilon$. This matches the results found in Figure 5, and show that the two qubits are interacting, which implies they are entangled. The same group has also created a two-pulse-gate chip to show that a CNOT gate is plausible \cite{twoPulseGates}.
+
+
+
+%
+%   Discusion
+%
+
+\section*{Discusion}
+
+There is an interesting future ahead of solid-state quantum devices, and with more work perhaps more qubits can be added. Other implementations such as flux and transmon qubits have appeared and gotten attention recently as well. Their potential to scale to more qubits makes these devices a good contender for large scale quantum computers in the future. The issue of scaling surely still holds many mysteries, and it is sure to generate much more physics over the coming decades.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bib
