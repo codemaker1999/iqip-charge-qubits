@@ -1,0 +1,108 @@
+Coupling of Two Qubits
+    Basic Idea
+        Two Cooper Pair boxes coupled via a capacitor, one of which is controlled with              a squid
+
+    The Circuit
+        Composed of 2 Cooper Pair boxes
+        Each box is coupled via capacitors to a reservoir, each other, a current probe, and the             common pulse gate
+        The DC gates allow us to set the initial states of each qubit directly
+        The pulse gate affects both qubits equally
+        Talk about the Josephson energies and the capcitances
+        By fabrication, we choose 
+    
+    Charging Diagram of Two Qubit Case
+        Diagram 1
+            Consider this as a 4 level system, although there are further energy levels, we                 will justify this later.
+            These four quadrants represent the possible states of the sytem
+            The arrows are from the common pulse gate, since it affects each qubit equally,                 it shifts   the state along a 45 degree line.
+            At the state L, the two states of the second qubit are degenerate
+            At R, the first qubit has a degeneracy
+            At L or R, the system acts has a single qubit oscillating between the |0> and |1>               state
+            At X, there is a double degeneracy
+            The frequency of the oscillations is    
+            Note: this diagram is only valid for small Josephson coupling, except at the                boundaries
+        
+        Diagram 2
+            When the system is driven to the co-resonance point X, the two qubit system                 becomes a coherent superposition of all 4 states. The states will then relax to                 the ground state, and after a certain period of time, they will decay to a lower                state, emitting a quasi particle. This quasi-particle can be measured as a current              in the probes. 
+    Points L and R
+        The same as the previous diagram, only at points L and R respectively
+
+    Charging Diagram Level Curves
+        Because of the large electrostatic energies involved, when  are far from the            boundaries, it is safe to assume that the states will not spontaneously change to           other states.
+    Charging Energy Diagram
+        This diagram relates the Energy and the Charge digrams, along one slice at L you            have one degeneracy, along a slice at R you have a different degeneracy, and                between the two slices s the co-resonant zone where you have a double               degeneracy.
+
+    Theory
+        We approximate the system by a 4 level system, as explained above. This choice is           justified since the fabrication condition   guarantees that the gap to          the higher energy states is sufficiently large as to be ignored.
+        The diagonal terms in this Hamiltonian denote the coupling between the two qubits,          while the off diagonal terms denote the coupling between each qubit and its individual          reservoir.
+        We have direct control over the diagonal terms by choosing , so we can effectively          control the coupling between the two qubits.
+         is the coupling energy between the 2 qubits.
+
+    Theory 2
+        Using an initial state, the Hamiltonian, and a rectangular pulse of length dt we can            calculate probability amplitudes, and further calculate the probability of each qubit           being in state 1.
+        The main thing to notice here is that the coupled qubits exhibit two oscillatory                frequencies instead of one, this indicates that the two qubits are indeed interacting.
+        
+    State Readout
+        In the readout scheme, the probe current is measured proportionally to the probability          of each qubit having a Cooper pair in it regardless of the state of the other qubit.
+        Using the current probes, biased at 600µV, we can get measurements of the Josephson             Energies of the individual qubits. Since at the points L or R, the coupling between the             qubits has almost no effect on the frequency of oscillation, this can be done with very             high accuracy. 
+    Parameter Measurements/ Frequency Responses
+        By tuning the system to L or R, you can excite oscillations in one of the qubits. By then           applying an array of pulses, you can measure the current after a certain time evolution             has occurred. By doing this for varying length of pulses, you can plot the current as a             function of time. The estimated amplitude of the applied pulses is 30mV
+        Since the current oscillates with the qubit, this data can then be used to measure the          oscillations, and thus the Josephson Energies of the individual qubits.
+        These cosines decay exponentially, with a decay time of ~2.5 ns.
+        As you can see, the spectrum of oscillations is grouped around one value. We identify           these values with .
+        We use independent measurement of d.c. current-voltage-gate-voltage characteristics             yields .
+
+        A similar process is used, except at point X, revealing the existence of 2 main oscillatory             frequencies. This fits with theoretical expectation. The dotted lines show the theoretical          expected frequencies.
+        The decay time of the coupled system, ~0.6 ns, is shorter compared to the independent           oscillations, which is qualitatively expected due to the extra decoherence channel. 
+        The amplitudes of the spectral peaks do not exactly agree with the theoretical              predictions, this is attributed to non ideal pulse shape (rise/fall time ~ 35 ps) and the           fact that a small shift of  off the co-resonance point drastically change the               oscillation pattern.
+        Numerical data calculated, taking into account realistic pulse shape and an initial             condition of non pure |00> assuming the system was exactly at the co-resonance,             showed that  gives better agreement with the experimental data.
+    EJ1 Dependence of Spectrum Components
+        A plot of the oscillation frequencies against a variable , controlled by a weak                 magnetic field (up to 20G)
+        Open circles are first qubit, open triangles second qubit
+        Without coupling, the single peaks in each qubit follow the dashed lines with an        intersection at .
+        After the coupling is introduced, a gap is created, shifting the frequencies to higher and          lower values. The spacing gap is equal to  when .
+        
+        Because of the double frequency structure of the probability oscillations in both qubits            and the frequency repulsion at , we can conclude that the 2 qubits do indeed            interact.
+        This in turn implies that they do become entangled during the course of the coupled             oscillations.
+        No direct measurements of the entanglement were performed.
+
+        
+A direct measurement of the entanglement was not performed in this experiment. However, analytical calculations were done of the evolution of the entanglement (negativity, concurrence, and entropy of formation) 
+The amount of entanglement was calculated using the standard expression for the case of pure states using entropy as a measure of entanglement. 
+
+Using the Hamiltonian the time evolution of the entropy was calculated (Final page of the extended paper) with a rectangular pulse shape. 
+E as a function of time for equal Josephson Energies Ej1 = Ej2 = 9.1 GHz
+The simulation shows that the entropy has an oscillatory nature, and reaches full entanglement at approx 0.2 ns. 
+Further numerical simulations show realistic pulse shape does not significantly decrease entanglement. 
+
+
+Fabrication Techniques
+-----------------------
+
+* evaporation
+    * used to deposite Al onto substrate (shadow evaporation)
+    * between evaporation steps, put oxygen in evaporation chamber to oxidize Al. This creates a thin layer of insulation which acts as a convenient tunnel junction
+
+* e-beam lith
+    * layer of resist is placed on a substrate
+    * e-beam focussed using 25nm balls of gold
+    * masks are used to help create certain features
+    * e-beam changes solubility of the resist
+    * developing stage - immerse in solvent
+    * EBL used over photolith because of accuracy (~10nm instead of ~125nm)
+
+* etching
+    * used to remove layers from the surface of a substrate
+    * wet etching is a chemical bath
+    * dry etching is blasting the wafer with ions (plasma of gases)
+    * dry is used more often for nanofab because you can get ~100nm features as opposed to ~1um
+    * also more costly, harder to do, poor selectivity
+
+* liftoff
+    1. prepare substrate
+    2. deposite stencil layer
+    3. patterning (ex: etching)
+    4. deposite target material
+    5. "lift-off" of stencil
+    * used when poor selectivity of etching is a problem, or when deeper layers would be damaged by etching
+    * common problem: lift-off malfunction
